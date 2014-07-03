@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+}
+
+body {
+  line-height: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: 0px;
+  height: 100%;
+}
+
+#container {
+	height: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#topbox {
+	position: relative;
+	margin: 0 auto;
+	margin-right: 0;
+	width: 505px;
+	margin-top: 5px;
+	padding-left: 90px;
+	outline-color: red;
+	height: 10%;
+	text-align: right;
+}
+
+#topbox nav a {
+	margin-right: 25px;
+	padding: 2px;
+	font-size: larger;
+	text-decoration: none;
+	color: #6E6E6E; 
+	height: 100%;
+}
+
+#topbox nav a:hover {
+	text-decoration: underline;
+}
+
+#topbox nav a:nth-child(5) {
+	color: white;
+	background-color: #3A81F4;
+	border-radius: 3px;
+	padding: 4px;
+}
+
+
+#clearance {
+	position: relative;
+	clear: right;
+	margin: 20px auto;
+	height: 1%;
+}
+
+#logo {
+	position: relative;
+	text-align: center;
+	outline-color: green;
+	margin: 10px;
+}
+
+form {
+	position: relative;
+	text-align: center;
+	margin: 10px;
+	height: 100%;
+}
+
+form input {
+	position: relative;
+	background: white url("Images/microphone.png") 100% 50% no-repeat;
+	margin: 1%;
+	margin: 0 auto;
+	width: 550px;
+	height: 40px;
+	max-height: 100%;
+}
+
+
+#lucky {
+	position: relative;
+	right: 0;
+	left: 0;
+	text-align: center;
+	outline-color: pink;
+	margin: 10px 10px 30px 10px;
+	height: 20%;
+}
+
+#lucky .button {
+	display: inline-block;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 0;
+	padding: 0.5em;
+	margin: 1em;
+	font-size: 1em;
+	color: #6E6E6E;
+}
+
+footer {
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #F2F2F2;
+	vertical-align: top;
+}
+
+footer p {
+	display: inline-block;
+	color: #6E6E6E;
+	margin: 15px;
+	padding: 2px;
+	font-size: 1.1em;
+	height: 100%;
+}
+
+footer div {
+	display: inline-block;
+}
+
+footer .pright {
+	position: relative;
+	text-align: right;
+	margin-right: 0px;	
+	float: right;
+}
+
+/*footer .pleft {
+	position: relative;
+	text-align: left;
+	margin-left: 0px;	
+	float: left;
+}*/
